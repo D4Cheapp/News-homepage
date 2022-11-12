@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+body{ font-family: 'Inter', sans-serif;}
+
+header{
+    margin-inline: 5vw;
+    margin-top: 10vh;
+    position: relative;
+    width: 100%;
+}
+.menuButton{
+    position: absolute;
+    right: 10vw;
+    top: 25%;
+    cursor: pointer;
+}
+.Blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 350vh;
+    background: rgba(0, 0, 0, 0.2);
+}
+.MenuWindow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    width: 50%;
+    height: 100%;
+    z-index: 11;
+}
+.MenuWindow img{
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+    cursor: pointer
+}
+.MenuWindow div{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 5vw;
+    top: 20vw;
+}
+.MenuWindow a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-size: 4vw;
+    margin-bottom: 5vw;
+}

@@ -1,0 +1,50 @@
+.mainContent{
+    margin-inline: 5vw;
+    margin-top: 65px;
+    display: block;
+}
+
+.mainContent img{
+    width: 100%;
+}
+
+.NewNews{
+    margin-top: 10vw;
+    background: black;
+    color: white;
+    height: 100vw;
+    padding-top: 1vw;
+    padding-inline: 5vw;
+}
+.NewNews h1{
+    color: #E7A651;
+    margin-bottom: 5vw;
+    font-size: 10vw;
+}
+.NewNews h3{font-size: 5vw; cursor: pointer;
+}
+.NewNews h3:hover{color: #E7A651;
+}
+.NewNews p{ color: #aaaaaa; font-size: 3vw;
+}
+
+.mainContent_Title{
+    font-size: 10vw;
+}
+.readMore p{
+    color: #606060;
+    font-size: 4vw;
+}
+.readMore button{
+    cursor: pointer;
+    margin-top: 5vw;
+    height: 10vw;
+    width: 40vw;
+    border: none;
+    background: #F15D51;
+    font-size: 3vw;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1vw;
+}
+.readMore button:hover{background: black;}

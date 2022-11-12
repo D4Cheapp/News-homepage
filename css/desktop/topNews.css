@@ -1,0 +1,23 @@
+.topNews{
+    margin-top: 5vw;
+    display: inline-flex;
+    gap: 5vw;
+}
+.topNews div{
+    display: inline-flex;
+    gap: 2vw;
+    width: 20vw;
+}
+.topNews h1{
+    color: #CBC8CE;
+    font-size: 1.7vw;
+}
+.topNews h3{
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+.topNews h3:hover{ color: #F15D51;}
+.topNews p{color: #606060;font-size: 1vw}
+.topNews img{
+    width: 15vw;
+}

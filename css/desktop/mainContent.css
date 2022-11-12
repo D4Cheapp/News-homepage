@@ -1,0 +1,61 @@
+.mainContent{
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(3,23.3vw);
+    grid-template-rows: repeat(2,15vw);
+    grid-row-gap: 3vw;
+}
+
+.mainContent img{
+    height: 18vw;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.NewNews{
+    background: black;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    color: white;
+    padding: 2vw 3vw 3vw;
+}
+.NewNews h1{
+    color: #E7A651;
+    margin-bottom: 3vw;
+    font-size: 2.5vw;
+}
+.NewNews h3{font-size: 1vw; cursor: pointer;
+}
+.NewNews h3:hover{color: #E7A651;
+}
+.NewNews p{ color: #aaaaaa; font-size: .9vw;
+}
+.mainContent_Title{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: start;
+    font-weight: 800;
+    font-size: 3vw;
+}
+.readMore{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: start;
+    padding-top: 1.5vw;
+}
+.readMore p{
+    color: #606060;
+    font-size: 1vw;
+}
+.readMore button{
+    cursor: pointer;
+    margin-top: 2.5vw;
+    height: 3vw;
+    width: 12vw;
+    border: none;
+    background: #F15D51;
+    font-size: .8vw;
+    color: white;
+    font-weight: 800;
+    letter-spacing: .3vw;
+}
+.readMore button:hover{background: black;}
